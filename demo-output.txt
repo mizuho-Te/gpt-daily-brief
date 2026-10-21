@@ -1,0 +1,15 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> dots-daily-brief-kit@0.1.0 demo
+> node --import tsx src/demo.ts
+
+OFFLINE FIXTURE ONLY. No network, no GPT, no Slack, no schedule.
+[SYNTHETIC / RULE-BASED PREVIEW — GPT not called]
+- Synthetic example: fix mobile layout
+  https://github.com/example/demo-project/issues/1
+- Synthetic example: review onboarding copy
+  https://github.com/example/demo-project/issues/2
+
+SIMULATED acknowledgement only; no message sent.
+Second run new events: 0
+Failed source: Source collection incomplete: keep prior state and report failure, not no changes

@@ -1,0 +1,21 @@
+{
+  "name": "dots-daily-brief-kit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Consent-first daily brief setup kit for Dots; offline demonstration",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test test/*.test.ts",
+    "demo": "node --import tsx src/demo.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "license": "MIT"
+}

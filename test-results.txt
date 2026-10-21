@@ -1,0 +1,53 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> dots-daily-brief-kit@0.1.0 test
+> node --import tsx --test test/*.test.ts
+
+✔ valid config (1.285153ms)
+✔ reject version 2 (0.385723ms)
+✔ reject timezone "bogus" (0.234124ms)
+✔ reject time "24:00" (0.381106ms)
+✔ reject time "8:00" (0.227875ms)
+✔ reject time "08:60" (0.163908ms)
+✔ reject sources [] (0.187293ms)
+✔ reject sources ["http://github.com/a/b"] (0.240624ms)
+✔ reject sources ["https://evil.example/a/b"] (0.207984ms)
+✔ reject sources ["https://github.com/a/b?token=x"] (0.255927ms)
+✔ reject sources ["https://github.com/a/.."] (0.197849ms)
+✔ reject sources ["https://github.com/example/demo","https://github.com/example/demo"] (0.212011ms)
+✔ reject destination "slack" (0.089896ms)
+✔ reject mode "live" (0.07264ms)
+✔ reject unexpected true (0.064798ms)
+✔ null config rejected (0.315256ms)
+✔ first preview (0.537933ms)
+✔ dedup in batch (0.219562ms)
+✔ confirmed ack dedup next run (0.625345ms)
+✔ failed cannot commit (0.206221ms)
+✔ uncertain cannot commit (0.108364ms)
+✔ wrong approval (0.135064ms)
+✔ failed collection not no changes (0.181605ms)
+✔ missing source not no changes (0.121905ms)
+✔ future event deferred (0.167173ms)
+✔ late event retained despite cursor (0.12575ms)
+✔ invalid cutoff (0.114994ms)
+✔ backwards clock (0.080682ms)
+✔ invalid state (0.101523ms)
+✔ prompt-like title remains data, no executable handler (0.202507ms)
+✔ atomic state roundtrip and corrupt fail-closed (16.253874ms)
+✔ concurrent lock rejected and released (1.254666ms)
+✔ reject event URL "/../../other" (0.188335ms)
+✔ reject event URL "/issues/1\nhttps://evil.example" (0.094423ms)
+✔ reject event URL "/issues/1?x=1" (0.044067ms)
+✔ reject event URL "/pull/0" (0.050296ms)
+✔ reject event URL "/actions/1" (0.037036ms)
+✔ case-insensitive source duplicates rejected (0.298571ms)
+✔ source case normalized (0.173382ms)
+✔ equivalent timestamp deduplicated (0.139691ms)
+ℹ tests 40
+ℹ suites 0
+ℹ pass 40
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 230.269302
